@@ -5,6 +5,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class Image {
+    public static final int SCALE_SMOOTH = 40;
+
     public static void main(String[] args) throws MalformedURLException {
         JFrame frame = new JFrame();
         frame.setVisible(true);

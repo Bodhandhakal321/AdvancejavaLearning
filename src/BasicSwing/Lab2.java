@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class Lab2 {
     public static void main(String[] args) {
-        JFrame f = new JFrame("NIST COLLEGE");
+        JFrame f = new JFrame(" Bodhan's Lab: NIST COLLEGE");
 //        JTextField text = new JTextField();
         f.setSize(800, 500);
         f.setVisible(true);

@@ -7,7 +7,7 @@ import java.awt.geom.Line2D;
 
 public class Lab1 {
     public static void main(String[] args){
-        JFrame f = new JFrame();
+        JFrame f = new JFrame("Bodhan Lab");
 //        f.setBounds(500,500,500,500);
         f.setSize(500,500);
 //        f.setResizable(true);
