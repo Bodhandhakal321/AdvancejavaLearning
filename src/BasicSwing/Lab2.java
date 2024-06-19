@@ -16,6 +16,7 @@ public class Lab2 {
                 Graphics2D g2d = (Graphics2D) g;
                 g2d.setColor(Color.GREEN);
                 g2d.setFont(new Font("Times New Roman",Font.ITALIC,50));
+                
                 g2d.drawString("We are learning advanced java", 100,100);
 
             }

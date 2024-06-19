@@ -11,20 +11,20 @@ public class SimpleCalc extends JFrame implements ActionListener {
     private char operator;
 
     public SimpleCalc() {
-        // Create the frame
+
         setTitle("Simple Calculator");
         setSize(400, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout(10, 10));
 
-        // Create the display field
+
         display = new JTextField();
         display.setEditable(false);
         display.setFont(new Font("Arial", Font.PLAIN, 24));
         display.setHorizontalAlignment(JTextField.RIGHT);
         add(display, BorderLayout.NORTH);
 
-        // Create the panel with buttons
+
         JPanel buttonPanel = new JPanel();
         buttonPanel.setLayout(new GridLayout(5, 4, 10, 10));
 
@@ -37,7 +37,7 @@ public class SimpleCalc extends JFrame implements ActionListener {
                 "C", "Back"
         };
 
-        // Create and add buttons to the panel
+
         for (String label : buttonLabels) {
             JButton button = new JButton(label);
             button.setFont(new Font("Arial", Font.PLAIN, 24));
@@ -47,7 +47,7 @@ public class SimpleCalc extends JFrame implements ActionListener {
 
         add(buttonPanel, BorderLayout.CENTER);
 
-        // Set visibility
+
         setVisible(true);
     }
 
